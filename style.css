@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.inter {
+  font-family: Inter;
+}
+.merriweather {
+  font-family: Merriweather;
+}
+.body {
+  margin: 50px 140px;
+}
+
+header {
+  min-height: 563px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("/resources/Banner Image.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background-color: blue;
+}
+
+header > section {
+  text-align: center;
+  width: 632px;
+  color: #fff;
+}
+
+header h3 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header h1 {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+}
+
+.offer>div{
+    margin: 45px 0;
+}
+
+.offer>h1{
+    font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #F00;
+}
+
+.offer h3{
+    font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+color: #F00;
+}
+
+.offer h2{
+    font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.offer-container{
+    margin: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.offer-container>.offer-img{
+    width: 800px;
+}
+
+.midnight-party-container{
+    margin: 120px 0;
+    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: blue;
+}
