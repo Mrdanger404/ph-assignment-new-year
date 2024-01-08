@@ -271,9 +271,76 @@ header h1 {
   padding: 10px 0;
 }
 
-.new-best-offer-right img{
-    height: 140px;
-    width: 140px;
+.new-best-offer-right img {
+  height: 140px;
+  width: 140px;
 }
 
+.holiday-sale-container-top {
+  text-align: center;
+}
 
+.holiday-sale-container-top h3 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 10px;
+}
+
+.holiday-sale-container-top h1 {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin: 10px;
+}
+
+.holiday-sale-container-top span {
+  color: #f00;
+}
+
+.holiday-sale-container-top p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 10px;
+  color: rgba(7, 2, 17, 0.6);
+}
+
+.holiday-sale {
+  position: relative;
+  display: flex;
+  align-items: center;
+  float: right;
+}
+
+.holiday-sale-right {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-middle {
+  position: absolute;
+
+  left: -150px;
+}
+
+.rectangle-bottom {
+  position: relative;
+  height: 10px;
+}
+
+.rectangle-two {
+  width: 100%;
+}
+
+.rectangle-bottom > .group {
+  position: absolute;
+  top: -250px;
+  left: 100px;
+  width: 500px;
+}
