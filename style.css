@@ -16,6 +16,10 @@
 section {
   margin: 120px 0;
 }
+
+button{
+  cursor: pointer;
+}
 header {
   min-height: 563px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
