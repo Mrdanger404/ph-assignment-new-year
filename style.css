@@ -175,9 +175,7 @@ header h1 {
 
 .time h1 {
   font-size: 32px;
-  font-style: normal;
   font-weight: 600;
-  line-height: 56px;
 }
 
 .time span {
@@ -532,6 +530,8 @@ address {
 hr {
   height: 1px;
   background: rgba(255, 255, 255, 0.15);
+  color: #FFFFFF26;
+  border: none;
 }
 
 .social-link ul {
