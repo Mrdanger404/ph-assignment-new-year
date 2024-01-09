@@ -399,6 +399,11 @@ header h1 {
 
 .gift-image img:hover {
   box-shadow: 0 10px 10px gray;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 .subscribe-section {
